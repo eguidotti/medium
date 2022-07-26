@@ -4,8 +4,6 @@ This repository contains an API to filter [Medium RSS feeds](https://help.medium
 
 - https://medium-zye5756oia-uc.a.run.app?username=eguidotti&tag=python
 
-This software and its author are in no way affiliated, endorsed, or approved by “Medium” or any of its affiliates.
-
 ## Usage
 
 The RSS feed filtered by tag is available at:
@@ -19,6 +17,6 @@ https://medium-zye5756oia-uc.a.run.app?username=<username>&tag=<tag>
 | `<username>` | The Medium @username. | `eguidotti` |
 | `<tag>`      | The tag to filter by. | `python`    |
 
-## Hosting
+## Disclaimer
 
-The API is hosted on Google Cloud. 
+This software and its author are in no way affiliated, endorsed, or approved by “Medium” or any of its affiliates.
