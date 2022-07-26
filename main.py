@@ -34,4 +34,4 @@ def rss(username: str, tag: str):
 
 
 if __name__ == "__main__":
-    uvicorn.run("main:app")
+    uvicorn.run("main:app", port=8080)
