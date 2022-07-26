@@ -31,3 +31,7 @@ def rss(username: str, tag: str):
             item.getparent().remove(item)
 
     return Response(content=etree.tostring(root, encoding="UTF-8"), media_type="text/xml")
+
+
+if __name__ == "__main__":
+    uvicorn.run("main:app", port=8080)
