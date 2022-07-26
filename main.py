@@ -1,4 +1,3 @@
-import uvicorn
 import requests
 from lxml import etree
 from fastapi import FastAPI, Response
